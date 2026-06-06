@@ -1,0 +1,17 @@
+@inproceedings{10.1145/3731715.3733270,
+author = {Hu, Yulan and Yang, Zhirui and Ouyang, Sheng and Liu, Yong},
+title = {Adversarial Masked Graph Autoencoders for Improved Graph Representation Learning},
+year = {2025},
+isbn = {9798400718779},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3731715.3733270},
+doi = {10.1145/3731715.3733270},
+abstract = {Generative graph self-supervised learning (SSL), represented by masked graph autoencoders (GAEs), has shown great potential in graph representation learning. Existing masked GAEs typically rely on reconstruction criteria, such as mean squared error, to measure the discrepancy between the input graph and the reconstructed output. However, this learning paradigm struggles with perturbed graph characteristics, hindering the learning of robust graph representations. To address this, we introduce AMGAE -- an Adversarial Masked Graph AutoEncoder, which enhances the robustness of masked GAEs by integrating an adversarial learning strategy. Specifically, we design AMGAE to comprise a generator and a discriminator, optimized alternately and interconnected by a binary discrimination task (BDT). We treat the entire masked GAE as the generator, which produces a reconstructed output using the visible graph features. Then, we synthesize the reconstructed output by substituting the visible node features with the corresponding raw input features. Finally, we employ an additional GNN layer as the discriminator to determine the authenticity of the node-level features synthesized by BDT. By introducing the adversarial strategy, AMGAE reformulates masked GAE learning into a min-max game, which facilitates the learning of robust graph representations. We conduct extensive experiments on three graph tasks, demonstrating that AMGAE performs favorably against diverse baselines.},
+booktitle = {Proceedings of the 2025 International Conference on Multimedia Retrieval},
+pages = {478–486},
+numpages = {9},
+keywords = {adversarial learning, graph representation learning, self-supervised learning},
+location = {Chicago, IL, USA},
+series = {ICMR '25}
+}
