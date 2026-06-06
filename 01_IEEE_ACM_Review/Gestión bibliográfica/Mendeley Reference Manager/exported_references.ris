@@ -1,0 +1,100 @@
+TY  - CONF
+AB  - This paper introduces a robust classification system identify music clips based on singers using Mel-Frequency Cepstral Coefficients (MFCC) and Chroma Energy Normalized Statistics (CENS) with Stacked Autoencoder (SAE). The dataset consists of Indian language songs from ten renowned playback singers, spanning different musical eras. Identifying singers in polyphonic music, where instrumental accompaniment adds complexity, is a significant challenge. This paper aims to propose a system capable of effectively extracting vocal features for accurate identification. The primary objective is to evaluate the system's identification performance using metrics such as identification rate and Equal Error Rate (EER), focusing on MFCC and CENS feature representation and SAE-based feature learning. The Stacked Autoencoder offers key advantages in feature learning by effectively reducing the dimensionality of input data while capturing important vocal characteristics. Its ability to learn hierarchical feature representations makes it well-suited for handling the complexity of polyphonic music, where interrelated time and frequency features are crucial for identifying singers. Experimental results demonstrate an average identification rate of 96.9% for polyphonic music. The findings highlight the system's potential to accurately identify singers despite the challenges posed by instrumental accompaniment, showcasing the benefits of SAE in music signal analysis.
+AU  - Rajesh, Sangeetha
+AU  - J, Nalini N
+CY  - New York, NY, USA
+DO  - 10.1145/3718391.3718413
+KW  - Autoencoder
+KW  - CENS
+KW  - MFCC
+KW  - Music Analysis
+KW  - Singer Identification
+PB  - Association for Computing Machinery
+PY  - 2025
+SN  - 9798400717376
+SP  - 137
+EP  - 144
+TI  - Deep Autoencoder-based Framework for Robust Singer Identification in Music Analysis
+T2  - Proceedings of the 2024 the 12th International Conference on Information Technology (ICIT)
+UR  - https://doi.org/10.1145/3718391.3718413
+ER  -
+TY  - CONF
+AB  - Traditional methods often design training plans based on universal models or averaged data, which cannot fully consider the individual differences and needs of each athlete. This may result in training plans that are not targeted enough to maximize the potential of each athlete. This article uses VAE (Variational Auto-Encoder) to automatically learn the feature representation of athlete data. Based on the characteristics and needs of each athlete, a specialized training plan is designed to maximize their training effectiveness and performance. This article collects a large amount of athlete training data, preprocesses the collected athlete training data, outputs latent representations of features through VAE, and decodes the latent representations into reconstructed data. This article designs a personalized sports training system using athlete features extracted by VAE, providing real-time feedback and guidance. The experiment compared VAE with GAN (Generative Adversarial Networks) and AE (Auto Encoder), and the results showed that the average reconstruction error of VAE was 0.009. The average scores of athletes in basketball games under the three feature extraction methods of VAE, GAN, and AE are 17 points, 13 points, and 11 points, respectively. And athletes are most satisfied with the targeted training program constructed by VAE. Therefore, using VAE can accurately extract athlete features and achieve personalized sports training.
+AU  - Wen, Nan
+AU  - Diliya, Dilixiati
+CY  - New York, NY, USA
+DO  - 10.1145/3662739.3672309
+KW  - Athlete feature extraction
+KW  - Personalized training scheme
+KW  - Physical training
+KW  - Variational auto-encoder
+PB  - Association for Computing Machinery
+PY  - 2024
+SN  - 9798400718144
+SP  - 574
+EP  - 580
+TI  - Feature Extraction and Personalized Sports Training for Athletes Using Variational Autoencoder (VAE)
+T2  - Proceedings of the 2024 International Conference on Machine Intelligence and Digital Applications
+UR  - https://doi.org/10.1145/3662739.3672309
+ER  -
+TY  - CONF
+AB  - (1) In this work, a set of deep autoencoders with different numbers of layers and layer sizes were trained using a set of open access hand tracking datasets. Examining the results allowed to determine optimal number of layers for deep autoencoders and augmentation parameters for denoising autoencoders. Additionally, variations of autoencoders reconstruction loss depending on hidden unit size and latent space size were observed. (2) Results. Trained autoencoders showed better results in representation extraction than PCA method. A positive relationship between autoencoder depth and model performance was also proven. Future work will be aimed at applying obtained results to transfer learning problems.
+AU  - Khoimov, Matvei
+AU  - Botman, Stepan
+AU  - Natalia, Shusharina
+CY  - New York, NY, USA
+DO  - 10.1145/3638584.3638643
+KW  - deep autoencoder
+KW  - hand movements
+KW  - representation learning
+PB  - Association for Computing Machinery
+PY  - 2024
+SN  - 9798400708688
+SP  - 436
+EP  - 441
+TI  - Autoencoder-based representation learning of hand and finger movements in humans
+T2  - Proceedings of the 2023 7th International Conference on Computer Science and Artificial Intelligence
+UR  - https://doi.org/10.1145/3638584.3638643
+ER  -
+TY  - CONF
+AB  - Generative graph self-supervised learning (SSL), represented by masked graph autoencoders (GAEs), has shown great potential in graph representation learning. Existing masked GAEs typically rely on reconstruction criteria, such as mean squared error, to measure the discrepancy between the input graph and the reconstructed output. However, this learning paradigm struggles with perturbed graph characteristics, hindering the learning of robust graph representations. To address this, we introduce AMGAE – an Adversarial Masked Graph AutoEncoder, which enhances the robustness of masked GAEs by integrating an adversarial learning strategy. Specifically, we design AMGAE to comprise a generator and a discriminator, optimized alternately and interconnected by a binary discrimination task (BDT). We treat the entire masked GAE as the generator, which produces a reconstructed output using the visible graph features. Then, we synthesize the reconstructed output by substituting the visible node features with the corresponding raw input features. Finally, we employ an additional GNN layer as the discriminator to determine the authenticity of the node-level features synthesized by BDT. By introducing the adversarial strategy, AMGAE reformulates masked GAE learning into a min-max game, which facilitates the learning of robust graph representations. We conduct extensive experiments on three graph tasks, demonstrating that AMGAE performs favorably against diverse baselines.
+AU  - Hu, Yulan
+AU  - Yang, Zhirui
+AU  - Ouyang, Sheng
+AU  - Liu, Yong
+CY  - New York, NY, USA
+DO  - 10.1145/3731715.3733270
+KW  - adversarial learning
+KW  - graph representation learning
+KW  - self-supervised learning
+PB  - Association for Computing Machinery
+PY  - 2025
+SN  - 9798400718779
+SP  - 478
+EP  - 486
+TI  - Adversarial Masked Graph Autoencoders for Improved Graph Representation Learning
+T2  - Proceedings of the 2025 International Conference on Multimedia Retrieval
+UR  - https://doi.org/10.1145/3731715.3733270
+ER  -
+TY  - CONF
+AB  - This paper proposes an anomaly detection framework based on a deep learning autoencoder model to identify acute psychological stress induced by dark and confined environments during diving activities. The framework utilizes physiological signals from biosensors, such as electrodermal activity (EDA), electrocardiogram (ECG), heart rate variability (HRV), galvanic skin response (GSR), EEG power bands, blood pressure, oxygen saturation (%), respiration rate, and skin temperature, sourced from the Psychological State Identification Dataset, to simulate claustrophobia-like responses in underwater settings. The autoencoder is trained in an unsupervised manner on normal data, with reconstruction errors serving as anomaly scores for classification via a dynamic threshold based on percentiles. Experimental results demonstrate high performance, with the proposed model achieving an F1-score of 0.8398, precision of 0.8702, and recall of 0.8115, outperforming the Isolation Forest benchmark (F1-score 0.4338). Visualization techniques, including violin plots of error distributions combined with box and swarm overlays, precision-recall curves with AUC annotations, clustered heatmaps of feature-specific reconstruction errors, bar plots of threshold sensitivity with error bars, and 3D t-SNE embeddings colored by error scores, illustrate clear separation between normal and anomalous states. Threshold sensitivity analysis shows robust F1-scores ranging from 0.7856 to 0.8629 across different percentiles, confirming the model’s adaptability. This approach addresses the challenge of real-time stress monitoring in extreme environments, enhancing diver safety through early detection and intervention. By integrating machine learning with wearable sensors, the framework offers potential for broader applications in occupational health under confined conditions, such as mining or space exploration. Future enhancements could incorporate multimodal data fusion, real-world validation with diver-specific datasets, and ethical considerations for privacy in biosensor applications.
+AU  - Qiu, Sheng
+AU  - Chi, Jianing
+AU  - Xue, Yanhua
+AU  - Xin, Jian
+CY  - New York, NY, USA
+DO  - 10.1145/3773365.3773430
+KW  - Anomaly Detection
+KW  - Autoencoder
+KW  - Physiological Signals
+KW  - Psychological Stress
+KW  - Underwater Monitoring
+PB  - Association for Computing Machinery
+PY  - 2025
+SN  - 9798400718748
+SP  - 411
+EP  - 417
+TI  - Based on Deep Autoencoder: An Anomaly Detection Framework for Real-Time Psychological Stress Monitoring in Underwater Confined Environments
+T2  - Proceedings of the 2025 8th International Conference on Computer Information Science and Artificial Intelligence
+UR  - https://doi.org/10.1145/3773365.3773430
+ER  -
