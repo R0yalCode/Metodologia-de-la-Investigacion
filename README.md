@@ -18,7 +18,8 @@ The objective of this release is to provide full methodological traceability and
 
 📷 Original Assignment Evidence
 
-<img width="1455" height="114" alt="image" src="https://github.com/user-attachments/assets/752a6c8a-6bb7-48ce-8a91-9977c873c81c" />
+<img width="873" height="129" alt="image" src="https://github.com/user-attachments/assets/991db70f-f50a-43c9-b86b-eee5b1a6bdc4" />
+
 
 [research_question.png](https://github.com/R0yalCode/Metodologia-de-la-Investigacion/blob/main/Pregunta%20de%20investigaci%C3%B3n/research_question.png)
 
